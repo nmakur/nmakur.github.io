@@ -187,13 +187,13 @@ This is a school of drama class paired with the regular *Design for the Stage* c
 
 # <a name="extracurriculars"></a> Extracurriculars
 
-<div class="always-parallel-img">
-<div style="flex: 0 0 40%;">
+<div class="parallel-img">
+<div class="image-below-wrapper">
 {% set concert = resize_image(path="images/concert.png", width=400, height=400, op="fit") %}
 <img src="{{ concert.url }}" width="{{ concert.width }}" height="{{ concert.height }}"
   style="border: 1px solid var(--cyan-color);"/>
 </div>
-<div style="flex: 1;">
+<div class="text-wrapper">
 
 ### AB Tech
 
@@ -202,28 +202,28 @@ AB Tech is CMU's in-house production company. Within it, I mostly focus on light
 </div>
 </div>
 
-<div class="always-parallel-img">
-<div style="flex: 1;">
+<div class="parallel-img">
+<div class="text-wrapper">
 
 ### Spring Carnival Committee
 
 Spring Carnival Committee organizes... Spring Carnival, the biggest weekend of the year at CMU. I handle logistics for the org, which basically means coordinating with vendors, tracking our inventory, and any other side quests that pop up during build week. Something in me really loves spending every spare minute in the trailer and staying up a bit too late for a week.
 
 </div>
-<div style="flex: 0 0 40%;">
+<div class="image-below-wrapper">
 {% set golf_cart = resize_image(path="images/carnival_golf_cart.png", width=400, height=400, op="fit") %}
 <img src="{{ golf_cart.url }}" width="{{ golf_cart.width }}" height="{{ golf_cart.height }}"
   style="border: 1px solid var(--cyan-color);"/>
 </div>
 </div>
 
-<div class="always-parallel-img">
-<div style="flex: 0 0 40%;">
+<div class="parallel-img">
+<div class="image-below-wrapper">
 {% set staff_photo= resize_image(path="images/15251_s26.png", width=400, height=400, op="fit") %}
 <img src="{{ staff_photo.url }}" width="{{ staff_photo.width }}" height="{{ staff_photo.height }}"
   style="border: 1px solid var(--cyan-color);"/>
 </div>
-<div style="flex: 1;">
+<div class="text-wrapper">
 
 ### TAing 15251
 

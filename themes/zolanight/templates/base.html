@@ -96,8 +96,7 @@
   <style>
     /* Styles for Image Layout */
 
-    .parallel-img,
-    .always-parallel-img {
+    .parallel-img {
       display: flex;
       width: 100%;
       margin: 2rem 0;
@@ -111,6 +110,10 @@
 
     .text-wrapper {
       flex: 0 0 58%;
+    }
+
+    .image-below-wrapper {
+      flex: 0 0 40%;
     }
 
     /* Overrides for thin screens */
@@ -129,6 +132,13 @@
       .text-wrapper {
         order: 2;
         flex: 0 0 100%;
+      }
+
+      .image-below-wrapper {
+        order: 3;
+        flex: 0 0 70%;
+        max-width: 70%;
+        margin: 0 auto;
       }
     }
 

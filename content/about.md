@@ -5,13 +5,13 @@ path = "about"
 template = "page.html"
 +++
 
-<div class="always-parallel-img">
-<div style="flex: 0 0 40%;">
+<div class="parallel-img">
+<div class="image-below-wrapper">
 {% set me_in_forklift = resize_image(path="images/forklift.png", width=400, height=400, op="fit") %}
 <img src="{{ me_in_forklift.url }}" width="{{ me_in_forklift.width }}" height="{{ me_in_forklift.height }}"
   style="border: 1px solid var(--cyan-color);"/>
 </div>
-<div style="flex: 1;">
+<div class="text-wrapper">
 
 Hello there! Like it says on the home page, my name is Neil Makur, and I'm studying <color val="green">Computer Science</color> and <color val="green"> Mathematics</color> at <color val="red">Carnegie Mellon University</color>. This page is everything about me that is disjoint from the previous sentence.
 
