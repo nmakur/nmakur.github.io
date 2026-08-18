@@ -1,0 +1,14 @@
+# The URL the site will be built for
+base_url = "https://nmakur.github.io"
+
+title = "Neil Makur"
+description = "Neil Makur's Personal Website"
+compile_sass = true
+taxonomies = [{ name = "tags" }]
+theme = "zolanight"
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra.zolanight]
+theme = "tokyonight"
