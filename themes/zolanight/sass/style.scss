@@ -93,6 +93,24 @@ header {
   align-items: center; /* Vertically align items */
 }
 
+@media (max-width: 768px) {
+  header nav,
+  .nav-menu,
+  .navbar-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  header nav a,
+  .nav-menu a {
+    white-space: nowrap;
+  }
+}
+
 nav {
   display: flex;
   align-items: center;

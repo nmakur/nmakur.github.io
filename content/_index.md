@@ -4,8 +4,8 @@ sort_by = "weight"
 template = "index.html"
 +++
 
-<div style="display: flex; gap: 24px; align-items: flex-start; margin: 2rem 0;">
-<div style="flex: 1;">
+<div class="parallel-img">
+<div class="text-wrapper">
 
 Welcome! My name is Neil Makur, and I'm a student studying <color val="green">Computer Science</color> and <color val="green"> Mathematics</color> at <color val="red">Carnegie Mellon University</color>, graduating in 2028.
 
@@ -17,7 +17,7 @@ I have a bunch of interests, here are my top ones:
 - <color val="magenta">Event Production</color>: handling technical and logistical needs for concerts, carnivals, conventions, and also probably things that don't start with c.
 
 </div>
-<div style="flex: 0 0 auto;">
+<div class="image-wrapper">
 {% set me_on_subs = resize_image(path="images/subs.png", width=400, height=400, op="fit") %}
 <img src="{{ me_on_subs.url }}" width="{{ me_on_subs.width }}" height="{{ me_on_subs.height }}"
   style="border: 1px solid var(--cyan-color);"/>

@@ -5,8 +5,8 @@ path = "about"
 template = "page.html"
 +++
 
-<div style="display: flex; gap: 24px; align-items: flex-start; margin: 2rem 0;">
-<div style="flex: 0 0 auto;">
+<div class="always-parallel-img">
+<div style="flex: 0 0 40%;">
 {% set me_in_forklift = resize_image(path="images/forklift.png", width=400, height=400, op="fit") %}
 <img src="{{ me_in_forklift.url }}" width="{{ me_in_forklift.width }}" height="{{ me_in_forklift.height }}"
   style="border: 1px solid var(--cyan-color);"/>

@@ -93,4 +93,45 @@
     color { display: inline; }
   </style>
 
+  <style>
+    /* Styles for Image Layout */
+
+    .parallel-img,
+    .always-parallel-img {
+      display: flex;
+      width: 100%;
+      margin: 2rem 0;
+      align-items: flex-start;
+      gap: 24px;
+    }
+
+    .image-wrapper {
+      flex: 0 0 40%;
+    }
+
+    .text-wrapper {
+      flex: 0 0 58%;
+    }
+
+    /* Overrides for thin screens */
+    @media (max-width: 768px) {
+      .parallel-img {
+        flex-direction: column;
+      }
+
+      .image-wrapper {
+        order: 1;
+        flex: 0 0 70%;
+        max-width: 70%;
+        margin: 0 auto;
+      }
+
+      .text-wrapper {
+        order: 2;
+        flex: 0 0 100%;
+      }
+    }
+
+  </style>
+
 </html>
