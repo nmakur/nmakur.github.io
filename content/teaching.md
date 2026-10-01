@@ -13,3 +13,4 @@ in_menu = false
 - [Recitation 3](/teaching/21237_f26_reci_3.pdf): Quotient groups and their application to prove the 5/8ths theorem. Some relevant exercises to the recitation topics can be found [here](/teaching/exer_3_21237_f26.pdf).
 - [Recitation 4](/teaching/21237_f26_reci_4.pdf): The universal property of quotients, the abelianization, and automorphisms of the symmetric group.
 - [Recitation 5](/teaching/21237_f26_reci_5.pdf): Proofs of the Sylow theorems, the Frattini argument, an exotic copy of S<sub>5</sub> in S<sub>6</sub>, and internal direct products.
+- [Recitation 6](/teaching/21237_f26_reci_6.pdf): Chief series, the structure of minimal normal subgroups, and the Schur-Zassenhaus theorem for solvable groups.
